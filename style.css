@@ -72,12 +72,16 @@ ul li {
 ul li a {
   text-decoration: none;
   color: rgb(2, 2, 2);
-  background: #40eb6b;
+  background: #45e26f;
   width: 30px;
   height: 30px;
   line-height: 30px !important;
   border-radius: 50%;
   transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 ul li a:hover {
@@ -96,7 +100,6 @@ footer::before {
   content: '';
   position: absolute;
   border-bottom: 30px solid transparent;
-  border-right: 400px solid rgb(245, 82, 76);
   top: 0;
 }
 
@@ -109,7 +112,7 @@ header .toper{
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.918);
+  background: rgba(202, 21, 21, 0.918);
   transition: all 500ms ease-out;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
@@ -129,7 +132,7 @@ header:hover > .toper h3{
 }
 
 header.toper p{
-  color: #fff;
+  color: rgb(202, 202, 202);
   font-size: 15px;
   line-height: 1.5;
   width: auto;
